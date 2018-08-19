@@ -4,7 +4,7 @@
 
 #include "utils.h"
 
-int clearLinkedList(Node* list){
+void clearLinkedList(Node* list){
     while(list != nullptr){
         Node* temp = list;
         list = list->next;

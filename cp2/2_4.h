@@ -8,6 +8,6 @@
 #include "utils.h"
 
 Node* addLists(Node* first, Node* second);
-int test_2_4();
+void test_2_4();
 
 #endif //CP2_2_4_H

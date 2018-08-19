@@ -60,7 +60,7 @@ int runtests(){
     return 0;
 }
 
-int test_2_4() {
+void test_2_4() {
     runtests();
 }
 

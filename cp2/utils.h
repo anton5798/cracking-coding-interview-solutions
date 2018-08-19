@@ -10,6 +10,6 @@ struct Node {
     Node* next;
 };
 
-int clearLinkedList(Node* list);
+void clearLinkedList(Node* list);
 
 #endif //CP2_UTILS_H

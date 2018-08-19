@@ -1,1 +1,0 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cp2.dir/main.cpp.o CMakeFiles/cp2.dir/2_4.cpp.o CMakeFiles/cp2.dir/utils.cpp.o  -o cp2 
