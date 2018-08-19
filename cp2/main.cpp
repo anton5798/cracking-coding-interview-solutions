@@ -5,5 +5,6 @@ using namespace std;
 
 int main() {
     test_2_4();
+    cout << "ALL TESTS PASSED" << endl;
 }
 

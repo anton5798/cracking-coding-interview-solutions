@@ -1,6 +1,7 @@
 #include <cmath>
 #include <cassert>
 #include <cstdlib>
+#include <iostream>
 #include "2_4.h"
 
 int countdigits(int sum) {
@@ -46,6 +47,7 @@ Node *addLists(Node *first, Node *second) {
 }
 
 int runtests(){
+    std::cout << "RUNNING TESTS FOR 2_4" << std::endl;
     for(int i = 0; i < 10; i++) {
         int a1 = rand() % 1000000;
         int a2 = rand() % 1000000;
