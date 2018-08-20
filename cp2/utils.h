@@ -7,9 +7,20 @@
 
 struct Node {
     int data;
-    Node* next;
+    Node *next;
+
+    Node(int d, Node *n) {
+        data = d;
+        next = n;
+    }
+
+    Node() {
+        data = 0; next = nullptr;
+    }
 };
 
-void clearLinkedList(Node* list);
+void clearLinkedList(Node *list);
+void clearCircularList(Node *list, int size);
+Node *listFromArray(int *data, int size);
 
 #endif //CP2_UTILS_H

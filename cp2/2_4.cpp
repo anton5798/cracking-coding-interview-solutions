@@ -14,13 +14,13 @@ int countdigits(int sum) {
 }
 
 Node *createLinkedList(int data) {
-    Node *curr = new Node;
+    Node *curr = new Node();
     Node* newguy = curr;
     int digits = countdigits(data);
     for (int i = 0; i < digits - 1; i++) {
         int number = (data / (int) pow(10.0, (double) digits - (double) (i + 1))) % 10;
         curr->data = number;
-        curr->next = new Node;
+        curr->next = new Node();
         curr = curr->next;
     }
     curr->data = data % 10;
@@ -62,8 +62,9 @@ int runtests(){
     return 0;
 }
 
-void test_2_4() {
+int test_2_4() {
     runtests();
+    return 0;
 }
 
 
